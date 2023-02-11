@@ -164,7 +164,7 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # }
 
 DATABASES={
-   'default': dj_database_url.parse("postgres://testdb_iqqr_user:XQLcta7Zstk5egnBtGYBurNSqW2WUdMb@dpg-cfi670hgp3jh03hlq640-a.singapore-postgres.render.com/testdb_iqqr")
+   'default': dj_database_url.parse("postgres://herokudb_user:hdXN35Ik8TfBb58SvXrXobOENaf4bhJ3@dpg-cfjile1a6gductiu4nng-a.singapore-postgres.render.com/herokudb")
 }
 
 # Password validation
