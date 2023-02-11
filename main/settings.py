@@ -208,7 +208,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 django_heroku.settings(locals())
 
 
-CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_BROKER_URL = 'rediss://red-cfji7k9mbjsn9e813gn0:Ba2qTTOiR6PsNJyeZqAah01maV3vT8EY@singapore-redis.render.com:6379'
 
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
